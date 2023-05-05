@@ -1,3 +1,22 @@
+Anropen till API
+Uppgift 1:
+[HttpPost("Add member")]
+[HttpGet("api/ Get all members")]
+-----------------------------------------------------------------------------------------------------------------------------------------
+Uppgift 2:
+[HttpPost("Add interest to member")]
+-----------------------------------------------------------------------------------------------------------------------------------------
+Uppgift 3:
+[HttpGet("{memberId}/Get all interests that are connected to the person")]
+-----------------------------------------------------------------------------------------------------------------------------------------
+Uppgift 4:
+[HttpPost("Add a link to an existing interest")]
+[HttpGet("{id}/ Get all links that are connected to the person")]
+-----------------------------------------------------------------------------------------------------------------------------------------
+Uppgift 5:
+[HttpPost("{memberId}/interests/{interestId}/Add new links to a specifik person and the specifik interest")]
+-----------------------------------------------------------------------------------------------------------------------------------------
+
 # Om uppgiften
 
 I den här labben ska du testa att bygga ditt första enkla Webb-API. Det API du kommer konstruera använder en REST-arkitektur och kommer möjliggöra för externa tjänster och applikationer att hämta och ändra data i din egen applikation.
